@@ -117,7 +117,7 @@ p {
   color: #ff9;
 }
 .listTypeOne.listTypeThree li {
-  list-style-image: url("https://mhasansagor.github.io/sidebar.gif");
+  list-style-image: url("sidebar.gif");
 }
 
 .links a {
@@ -141,7 +141,7 @@ p {
 }
 
 .banner {
-  background-image: url("https://mhasansagor.github.io/banner.jpg");
+  background-image: url("banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 75%;
