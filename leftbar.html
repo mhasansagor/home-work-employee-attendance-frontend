@@ -6,6 +6,17 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <script> 
+      function disableClick(){ 
+        document.onclick=function(event){ 
+          if (event.button == 2) { 
+            alert('Right Click Message'); 
+            return false; 
+          } 
+        } 
+      } 
+    </script> 
 
 
     <link rel="stylesheet" href="./bootstrap.min.css">
@@ -13,7 +24,7 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 
-<body data-new-gr-c-s-check-loaded="14.993.0" data-gr-ext-installed="">
+<body data-new-gr-c-s-check-loaded="14.993.0" data-gr-ext-installed="" onLoad="disableClick()">
     <div class="sidebarLeft">
         <ul class="listTypeOne listTypeThree">
             <li>
